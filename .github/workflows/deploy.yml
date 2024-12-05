@@ -36,7 +36,7 @@ jobs:
           SSH_USER="jetty"
           DO_DROPLET_IP="46.101.113.6"
           APP_NAME="tripapp"
-          REMOTE_PATH="/home/jetty/2semDockerSetupRemote/site/$APP_NÆAME/"
+          REMOTE_PATH="/home/jetty/2semDockerSetupRemote/site/$APP_NAME/"
 
           # Sync build output to the Droplet using rsync
           rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./dist/ $SSH_USER@$DO_DROPLET_IP:$REMOTE_PATH
