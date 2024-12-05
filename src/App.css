@@ -1,0 +1,67 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  padding: 20px;
+}
+
+
+.trip-item {
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.trip-item:hover {
+  transform: translateY(-3px);
+  border-color: darkred;
+}
+
+
+.trip-item p {
+  margin: 5px 0;
+}
+
+.packingitems {
+  border: 1px;
+  border-color: darkred;
+}
+
+.packing-items-container {
+  margin-top: 20px;
+}
+
+.packing-item {
+  border: 1px brown;
+  border-color: red;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.packing-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.packing-items-table th,
+.packing-items-table td {
+  border: 1px;
+  padding: 8px;
+  text-align: left;
+}
+
+.packing-items-table th {
+  border-color: blue;
+  font-weight: bold;
+}
+
+
+
+
+
